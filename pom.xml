@@ -9,11 +9,11 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 
-	<groupId>com</groupId>
+	<groupId>com.app</groupId>
 	<artifactId>student-api-hexagonal-architecture</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>student-api-hexagonal-architecture</name>
-	<description>Api Rest usando arquitectura hexagonal con SpringBoot</description>
+	<description>API Rest usando arquitectura hexagonal con SpringBoot</description>
 
 	<properties>
 		<java.version>17</java.version>
