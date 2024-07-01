@@ -1,9 +1,9 @@
 package com.app.application.ports.output;
 
-import com.app.domain.model.Student;
-
 import java.util.List;
 import java.util.Optional;
+
+import com.app.domain.model.Student;
 
 public interface StudentPersistencePort {
 

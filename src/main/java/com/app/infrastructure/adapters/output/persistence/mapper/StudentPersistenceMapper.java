@@ -1,8 +1,9 @@
 package com.app.infrastructure.adapters.output.persistence.mapper;
 
+import org.mapstruct.Mapper;
+
 import com.app.domain.model.Student;
 import com.app.infrastructure.adapters.output.persistence.entity.StudentEntity;
-import org.mapstruct.Mapper;
 
 import java.util.List;
 

@@ -1,11 +1,12 @@
 package com.app.application.service;
 
-import com.app.application.ports.output.StudentPersistencePort;
-import com.app.application.ports.input.StudentServicePort;
-import com.app.domain.exception.StudentNotFoundException;
-import com.app.domain.model.Student;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
+
+import com.app.application.ports.input.StudentServicePort;
+import com.app.application.ports.output.StudentPersistencePort;
+import com.app.domain.exception.StudentNotFoundException;
+import com.app.domain.model.Student;
 
 import java.util.List;
 

@@ -1,9 +1,5 @@
 package com.app.infrastructure.adapters.input.rest;
 
-import com.app.infrastructure.adapters.input.rest.mapper.StudentRestMapper;
-import com.app.infrastructure.adapters.input.rest.model.request.StudentCreateRequest;
-import com.app.infrastructure.adapters.input.rest.model.response.StudentResponse;
-import com.app.application.ports.input.StudentServicePort;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
@@ -16,6 +12,11 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+
+import com.app.application.ports.input.StudentServicePort;
+import com.app.infrastructure.adapters.input.rest.mapper.StudentRestMapper;
+import com.app.infrastructure.adapters.input.rest.model.request.StudentCreateRequest;
+import com.app.infrastructure.adapters.input.rest.model.response.StudentResponse;
 
 import java.util.List;
 

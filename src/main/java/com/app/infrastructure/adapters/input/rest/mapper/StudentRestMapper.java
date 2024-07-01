@@ -1,10 +1,11 @@
 package com.app.infrastructure.adapters.input.rest.mapper;
 
-import com.app.infrastructure.adapters.input.rest.model.request.StudentCreateRequest;
-import com.app.infrastructure.adapters.input.rest.model.response.StudentResponse;
-import com.app.domain.model.Student;
 import org.mapstruct.Mapper;
 import org.mapstruct.ReportingPolicy;
+
+import com.app.domain.model.Student;
+import com.app.infrastructure.adapters.input.rest.model.request.StudentCreateRequest;
+import com.app.infrastructure.adapters.input.rest.model.response.StudentResponse;
 
 import java.util.List;
 

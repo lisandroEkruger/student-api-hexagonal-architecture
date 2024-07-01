@@ -1,8 +1,8 @@
 package com.app.application.ports.input;
 
-import com.app.domain.model.Student;
-
 import java.util.List;
+
+import com.app.domain.model.Student;
 
 public interface StudentServicePort {
 

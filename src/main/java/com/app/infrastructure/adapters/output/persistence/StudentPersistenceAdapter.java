@@ -1,11 +1,12 @@
 package com.app.infrastructure.adapters.output.persistence;
 
+import lombok.RequiredArgsConstructor;
+import org.springframework.stereotype.Component;
+
 import com.app.application.ports.output.StudentPersistencePort;
 import com.app.domain.model.Student;
 import com.app.infrastructure.adapters.output.persistence.mapper.StudentPersistenceMapper;
 import com.app.infrastructure.adapters.output.persistence.repository.StudentRepository;
-import lombok.RequiredArgsConstructor;
-import org.springframework.stereotype.Component;
 
 import java.util.List;
 import java.util.Optional;

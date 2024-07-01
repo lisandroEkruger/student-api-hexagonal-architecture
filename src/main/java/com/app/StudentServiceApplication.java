@@ -1,23 +1,24 @@
 package com.app;
 
-import com.app.infrastructure.adapters.output.persistence.entity.StudentEntity;
-import com.app.infrastructure.adapters.output.persistence.repository.StudentRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+import com.app.infrastructure.adapters.output.persistence.entity.StudentEntity;
+import com.app.infrastructure.adapters.output.persistence.repository.StudentRepository;
 
 import java.util.Arrays;
 import java.util.List;
 
 @SpringBootApplication
 @RequiredArgsConstructor
-public class StudentApplication implements CommandLineRunner {
+public class StudentServiceApplication implements CommandLineRunner {
 
 	private final StudentRepository repository;
 
 	public static void main(String[] args) {
-		SpringApplication.run(StudentApplication.class, args);
+		SpringApplication.run(StudentServiceApplication.class, args);
 	}
 
 	@Override
