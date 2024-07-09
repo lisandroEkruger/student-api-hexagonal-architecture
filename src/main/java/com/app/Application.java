@@ -13,12 +13,12 @@ import java.util.List;
 
 @SpringBootApplication
 @RequiredArgsConstructor
-public class StudentServiceApplication implements CommandLineRunner {
+public class Application implements CommandLineRunner {
 
 	private final StudentRepository repository;
 
 	public static void main(String[] args) {
-		SpringApplication.run(StudentServiceApplication.class, args);
+		SpringApplication.run(Application.class, args);
 	}
 
 	@Override
