@@ -7,9 +7,12 @@ import com.app.domain.model.Student;
 public interface StudentServicePort {
 
   Student findById(Long id);
-  List<Student> findAll();
-  Student save(Student student);
-  Student update(Long id, Student student);
-  void deleteById(Long id);
 
+  List<Student> findAll();
+
+  Student save(Student student);
+
+  Student update(Long id, Student student);
+
+  void deleteById(Long id);
 }

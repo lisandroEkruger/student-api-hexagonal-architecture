@@ -1,10 +1,6 @@
 package com.app.infrastructure.adapters.output.persistence.entity;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
-import jakarta.persistence.Table;
+import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -22,9 +18,16 @@ public class StudentEntity {
   @GeneratedValue(strategy = GenerationType.IDENTITY)
   private Long id;
 
+  @Column(nullable = false)
   private String firstname;
+
+  @Column(nullable = false)
   private String lastname;
+
+  @Column(nullable = false)
   private Integer age;
+
+  @Column(nullable = false)
   private String address;
 
 }

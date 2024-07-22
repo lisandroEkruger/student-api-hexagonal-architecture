@@ -15,16 +15,16 @@ import lombok.Setter;
 @NoArgsConstructor
 public class StudentCreateRequest {
 
-  @NotBlank(message = "Field firstname cannot be empty or null.")
+  @NotBlank(message = "El Nombre no puede estar vacío ni ser nulo.")
   private String firstname;
 
-  @NotBlank(message = "Field lastname cannot be empty or null.")
+  @NotBlank(message = "El Apellido no puede estar vacío ni ser nulo.")
   private String lastname;
 
-  @NotNull(message = "Field age cannot be null.")
+  @NotNull(message = "La Edad no puede ser nulo.")
   private Integer age;
 
-  @NotBlank(message = "Field address cannot be empty or null.")
+  @NotBlank(message = "La Dirección no puede estar vacío ni nulo.")
   private String address;
 
 }

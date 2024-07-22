@@ -8,8 +8,10 @@ import com.app.domain.model.Student;
 public interface StudentPersistencePort {
 
   Optional<Student> findById(Long id);
-  List<Student> findAll();
-  Student save(Student student);
-  void deleteById(Long id);
 
+  List<Student> findAll();
+
+  Student save(Student student);
+
+  void deleteById(Long id);
 }

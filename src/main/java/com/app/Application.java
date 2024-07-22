@@ -1,12 +1,11 @@
 package com.app;
 
+import com.app.infrastructure.adapters.output.persistence.entity.StudentEntity;
+import com.app.infrastructure.adapters.output.persistence.repository.StudentRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-
-import com.app.infrastructure.adapters.output.persistence.entity.StudentEntity;
-import com.app.infrastructure.adapters.output.persistence.repository.StudentRepository;
 
 import java.util.Arrays;
 import java.util.List;
